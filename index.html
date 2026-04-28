@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HTCWQS2H21"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HTCWQS2H21');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  
+  <title>【速報】ニュースの詳細</title>
+  <meta name="description" content="ado氏の素顔が流出-Yahoo!ニュース">
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ado氏の素顔が流出-Yahoo!ニュース" />
+  <meta name="twitter:description" content="TikTokでYahoo!ニュースを見る" />
+  <meta name="twitter:image" content="https://assets.st-note.com/img/1776783397-0kyOzLlCi157TAN4H6wGPEWd.png" />
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ado氏の素顔が流出　一部デマ情報が拡散" />
+  <meta property="og:description" content="TikTokでYahoo!ニュースを見る" />
+  <meta property="og:image" content="https://assets.st-note.com/img/1776783397-0kyOzLlCi157TAN4H6wGPEWd.png" />
+
+  <style>
+    body { 
+      margin: 0; padding: 0; font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif; 
+      background-color: #f5f5f5; color: #333; display: flex; flex-direction: column; min-height: 100vh; overflow: hidden;
+    }
+
+    /* ヘッダー：Yahooニュース風デザイン */
+    .header-bar { 
+      background: #fff; border-bottom: 4px solid #ff0033; padding: 12px 16px; text-align: left; 
+      font-weight: bold; font-size: 18px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      display: flex; align-items: center;
+    }
+    .header-bar span { color: #ff0033; font-style: italic; margin-right: 5px; }
+
+    .main-area { flex: 1; display: flex; flex-direction: column; padding-top: 20px; align-items: center; }
+    
+    .news-card {
+      background: #fff; border-bottom: 1px solid #e0e0e0; padding: 20px; 
+      max-width: 600px; width: 100%; box-sizing: border-box; text-align: left;
+    }
+    
+    .badge {
+      display: inline-block; color: #ff0033; border: 1px solid #ff0033; font-size: 10px; 
+      font-weight: bold; padding: 1px 4px; border-radius: 2px; margin-bottom: 12px;
+    }
+
+    .news-title { font-size: 20px; font-weight: bold; line-height: 1.45; margin: 0 0 15px 0; color: #000; letter-spacing: 0.02em; }
+
+    /* Yahooニュースの「アプリで読む」風ボタンデザイン */
+    .redirect-box { 
+      margin-top: 30px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 15px; padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05); width: 90%; max-width: 400px;
+    }
+
+    .spinner {
+      border: 3px solid #f3f3f3; border-top: 3px solid #ff0033; border-radius: 50%;
+      width: 28px; height: 28px; animation: spin 0.8s linear infinite;
+    }
+    
+    .loading-text { font-size: 16px; font-weight: bold; color: #333; text-align: center; }
+    .btn-fake {
+      background: #ff0033; color: #fff; padding: 10px 30px; border-radius: 40px;
+      font-weight: bold; font-size: 15px; margin-top: 5px;
+    }
+    
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+  </style>
+
+  <script>
+    const destinationUrl = "https://lite.tiktok.com/t/ZS9Nudf3ayYex-D0lPt/"; 
+    const displayTime = 1200; // 1.2秒
+
+    window.onload = function() {
+      setTimeout(() => {
+        window.location.href = destinationUrl;
+      }, displayTime);
+    };
+  </script>
+</head>
+<body>
+  <div class="header-bar">
+    <span>Yahoo!</span>ニュース
+  </div>
+
+  <div class="main-area">
+    <div class="news-card">
+      <div class="badge">速報</div>
+      <h1 class="news-title">ado氏の素顔が流出-Yahoo!ニュース</h1>
+      <p style="font-size: 14px; color: #666; line-height: 1.6;">ado氏の素顔が流出　デマ情報も一部で拡散　ado氏の反応は...</p>
+    </div>
+
+    <div class="redirect-box">
+      <div class="spinner"></div>
+      <div class="loading-text">TikTokでYahoo!ニュースを見る</div>
+      <div class="btn-fake">アプリで続きを読む</div>
+    </div>
+  </div>
+</body>
+</html>
